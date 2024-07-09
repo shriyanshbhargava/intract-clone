@@ -16,7 +16,7 @@ import {
 import { BsFilePlayFill, BsFillClockFill } from 'react-icons/bs';
 import ClaimComponent from '../ClaimComponent';
 import DisclosureComponent from '../DisclosureComponent';
-import { RoadToSVG, RoadToSVG2, SVG3 } from '../Icons';
+import { RoadToSVG, RoadToSVG2, SVG3, SVG4 } from '../Icons';
 import Footer from '../Footer';
 import DictionaryComponent from '../DictionaryComponent';
 import CountdownTimer from '../CountdownTimer';
@@ -111,7 +111,7 @@ export const Home = () => {
 					</Button>
 				</div>
 			</div>
-			<section className='static'>
+			<section className="static">
 				{/* Basics of Crypto */}
 				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 ml-[10rem] top-[95%] z-40">
 					<div className="">
@@ -144,8 +144,13 @@ export const Home = () => {
 					</div>
 				</div>
 
+				{/* SVG ERROR */}
+				{/* <div className="absolute mt-[16rem] ">
+					<RoadToSVG2 />
+				</div> */}
+
 				{/* Introduction to Airdrops */}
-				<div className="relative mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 mt-8 sm:mt-0 mt-[50px] md:left-[14%] md:mt-[36rem]">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 mt-8 sm:mt-0 mt-[50px] md:left-[40%] md:mt-[33rem] ">
 					<DisclosureComponent
 						DisclosureImage="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/85903745c34d42d684a2dc505768afa7.png"
 						title="Introduction to Airdrops"
@@ -156,12 +161,12 @@ export const Home = () => {
 					/>
 				</div>
 
-				<div className='absolute top-[190%] left-[29%]'>
+				<div className="absolute top-[190%] left-[23.5%]">
 					<SVG3 />
 				</div>
 
 				{/* Earner NFT */}
-				<div className="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 md:ml-[10rem] md:mt-[55%]">
 					<div className="flex justify-start mt-8 sm:mt-0">
 						<ClaimComponent
 							checkIcon={<BiCheck />}
@@ -173,12 +178,12 @@ export const Home = () => {
 					</div>
 				</div>
 
-				{/* <div className="rounded-[8px] absolute top-[155%] left-[61%] overflow-hidden">
-					<RoadToSVG2 />
-				</div> */}
+				<div className="absolute mt-[60rem] -left-[6rem]">
+					<SVG4 />
+				</div>
 			</section>
 
-			<div className=" w-full sm:w-[320px] sm:ml-[30rem] sm:mt-[5rem] mx-auto">
+			<div className=" w-full sm:w-[320px] sm:ml-[30rem] sm:mt-[5rem] mx-auto md:mt-[81rem] md:ml-[40rem]">
 				<div className="relative p-3 sm:p-[.75rem] rounded-lg sm:rounded-[12px] border border-solid border-[rgba(255,255,255,.05)] bg-[rgba(255,255,255,.05)] backdrop-filter backdrop-blur-md sm:backdrop-blur-[30px] flex flex-col gap-4">
 					<div>
 						<div className="flex items-center gap-2 text-sm sm:text-base">

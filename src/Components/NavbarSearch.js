@@ -56,11 +56,11 @@ export default function NavbarSearch() {
 						</DisclosureButton>
 					</div>
 					<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-						<div className="flex flex-shrink-0 items-center">
+						<div className="flex flex-shrink-0 items-center ">
 							<img
 								alt="Your Company"
 								src="https://www.intract.io/logo/intract_text.svg"
-								className="h-6 w-auto"
+								className="md:h-6 w-auto  "
 							/>
 						</div>
 						<div
