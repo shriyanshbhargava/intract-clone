@@ -16,7 +16,7 @@ import {
 import { BsFilePlayFill, BsFillClockFill } from 'react-icons/bs';
 import ClaimComponent from '../ClaimComponent';
 import DisclosureComponent from '../DisclosureComponent';
-import { RoadToSVG, RoadToSVG2 } from '../Icons';
+import { RoadToSVG, RoadToSVG2, SVG3 } from '../Icons';
 import Footer from '../Footer';
 import DictionaryComponent from '../DictionaryComponent';
 import CountdownTimer from '../CountdownTimer';
@@ -154,6 +154,10 @@ export const Home = () => {
 						xpCount="1040"
 						tasks={tasks}
 					/>
+				</div>
+
+				<div className='absolute top-[190%] left-[29%]'>
+					<SVG3 />
 				</div>
 
 				{/* Earner NFT */}

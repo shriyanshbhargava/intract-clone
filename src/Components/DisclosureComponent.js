@@ -6,7 +6,7 @@ import { BiCheck } from 'react-icons/bi';
 const DisclosureComponent = ({ DisclosureImage, title, description, xpCount, tasks, QuestCount }) => {
 	return (
 		<div className="mx-auto w-full max-w-lg divide-y divide-white/5 rounded-xl bg-white/5 ">
-		<Disclosure as="div" className="p-6 relative" defaultOpen={true}>
+		<Disclosure as="div" className="p-6 relative" defaultOpen={false}>
 			<DisclosureButton className="group flex items-center justify-between">
 				<span className="flex-[0_0_160px] h-[180px] p-[8px] rounded-[16px] border-[1px] border-[solid] border-[rgba(255,255,255,.2)] bg-[var(--White-05,_rgba(255,_255,_255,_.05))] relative">
 					<img className="object-cover w-full h-full rounded-[12px]" src={DisclosureImage} alt="" />
@@ -44,7 +44,7 @@ const DisclosureComponent = ({ DisclosureImage, title, description, xpCount, tas
 				<FaCaretDown className="size-6 fill-white/60 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180 transition-1500 ease-in ml-[5px] mb-[170px] opacity-50"/>
 			</DisclosureButton>
 
-			<Disclosure.Panel className="max-h-[350px] overflow-y-auto pr-4 mt-3">
+			<Disclosure.Panel className="max-h-[350px] overflow-y-auto pr-4 mt-3 bg-[#111110]">
 				<div>
 					{tasks && tasks.map((task, index) => (
 						<div
