@@ -113,7 +113,7 @@ export const Home = () => {
 			</div>
 			<section className='static'>
 				{/* Basics of Crypto */}
-				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 ml-[10rem] top-[95%]">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 ml-[10rem] top-[95%] z-40">
 					<div className="">
 						<DisclosureComponent
 							DisclosureImage="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png"

@@ -3,7 +3,6 @@ import React from 'react';
 export const RoadToSVG = () => (
 	<svg
 		width="721"
-		className="relative z-10"
 		height="274"
 		viewBox="0 0 721 274"
 		fill="none"
