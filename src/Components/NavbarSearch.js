@@ -42,25 +42,25 @@ export default function NavbarSearch() {
 	return (
 		<Disclosure
 			as="nav"
-			className="sticky top-0 w-full h-[64px] bg-black backdrop-filter backdrop-blur-[5px] border-b-[1px] px-4 sm:px-[100px] z-10 border-[rgba(255,_255,_255,_.15)]"
+			className="sticky top-0 w-full h-[64px] backdrop-filter backdrop-blur-[5px] border-b-[1px] px-4 sm:px-[100px] z-10 border-[rgba(255,_255,_255,_.15)] z-50"
 		>
 			<div className="mx-auto max-w-full px-2 sm:px-6 lg:px-8">
-				<div className="relative flex h-16 items-center justify-between">
-					<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+				<div className="relative flex h-16 items-center justify-between ">
+					<div className="absolute inset-y-0 left-0 flex items-center sm:hidden ">
 						{/* Mobile menu button */}
-						<DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+						<DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white bg-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white z-50 ">
 							<span className="absolute -inset-0.5" />
 							<span className="sr-only">Open main menu</span>
-							<Bars3Icon aria-hidden="true" className="block h-6 w-6 group-open:hidden" />
-							<XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-open:block" />
+							<Bars3Icon aria-hidden="true" className="block h-6 w-6 group-open:hidden text-white" />
+							<XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-open:block text-white" />
 						</DisclosureButton>
 					</div>
-					<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+					<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start ">
 						<div className="flex flex-shrink-0 items-center ">
 							<img
 								alt="Your Company"
 								src="https://www.intract.io/logo/intract_text.svg"
-								className="md:h-6 w-auto  "
+								className="md:h-6 w-auto h-4 md:mr-0 mr-[10rem]"
 							/>
 						</div>
 						<div
@@ -128,7 +128,7 @@ export default function NavbarSearch() {
 			</div>
 
 			<DisclosurePanel className="sm:hidden">
-				<div className="space-y-1 px-2 pb-3 pt-2">
+				<div className="space-y-1 px-2 pb-3 pt-2 md:bg-none bg-black">
 					{navigation.map((item) => (
 						<DisclosureButton
 							key={item.name}
@@ -156,7 +156,7 @@ export default function NavbarSearch() {
 				<div className="px-2 pt-2 pb-3">
 					<div
 						className={clsx(
-							'w-full rounded-full border-[1px] border-solid border-[rgba(255,255,255,.05)] bg-[rgba(255,_255,_255,_.07)] h-[42.5px] px-[20px] py-[10px] items-center relative InputExpand',
+							'w-full flex rounded-full border-[1px] border-solid border-[rgba(255,255,255,.05)] bg-[rgba(255,_255,_255,_.07)] h-[42.5px] px-[20px] py-[10px] items-center relative InputExpand',
 							{ expanded: inputFocused }
 						)}
 					>
@@ -164,7 +164,7 @@ export default function NavbarSearch() {
 						<input
 							type="text"
 							placeholder="Search for ecosystems, trending quests etc,."
-							className={clsx('w-full bg-transparent py-1.5 px-3 text-sm text-white outline-none')}
+							className={clsx('w-full bg-transparent py-1.5 px-3  text-sm text-white outline-none')}
 							onFocus={handleInputFocus}
 							onBlur={handleInputBlur}
 							ref={inputRef}

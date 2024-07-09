@@ -31,52 +31,33 @@ export const Home = () => {
 		{
 			imageSrc:
 				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
+			title: '#1: But what is crypto and web3?',
 			numTasks: 11,
 		},
 		{
 			imageSrc:
 				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
-			numTasks: 11,
-		},
-		{
-			imageSrc:
-				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
-			numTasks: 11,
-		},
-		{
-			imageSrc:
-				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
-			numTasks: 11,
-		},
-	];
+			title: '#1: But what is crypto and web3?',
 
-	const tasks2 = [
-		{
-			imageSrc:
-				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
 			numTasks: 11,
 		},
 		{
 			imageSrc:
 				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
+			title: '#1: But what is crypto and web3?',
+
 			numTasks: 11,
 		},
 		{
 			imageSrc:
 				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
+			title: '#1: But what is crypto and web3?',
 			numTasks: 11,
 		},
 		{
 			imageSrc:
 				'https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png',
-			title: '#1: But what is crypto and...',
+			title: '#1: But what is crypto and web3?',
 			numTasks: 11,
 		},
 	];
@@ -93,15 +74,15 @@ export const Home = () => {
 					<img
 						alt="gif"
 						src="https://www.intract.io/assets/academy-animated-logo-57b2ae61.gif"
-						className="mix-blend-screen w-[150px] sm:w-[235px] transition-all duration-500 mt-4 sm:ml-[11.5rem] md:ml-[1rem]"
+						className="mix-blend-screen w-[150px] sm:w-[235px] transition-all duration-500 sm:ml-[11.5rem] md:ml-[1rem] md:mt-0 mt-[6rem]"
 					/>
-					<p className="text-[16px] sm:text-[20px] w-full font-normal leading-[24px] sm:leading-[28px] mt-4">
+					<p className="text-[12px] md:text-[20px] w-full font-normal leading-[24px] sm:leading-[28px] mt-4">
 						Intract users <span className="opacity-50">have together made more than</span> $100 million{' '}
 						<span className="opacity-50">in web3.</span>
 						<br />
 						<span className="opacity-50">Join them and</span> learn how to earn crypto!
 					</p>
-					<Button className="flex items-center rounded bg-[#6435e9] mt-4 sm:mt-[45px] py-2 px-8 sm:px-14 text-sm text-white opacity-80 hover:opacity-100">
+					<Button className="flex items-center rounded bg-[#6435e9] md:mt-4 mt-[30px] py-2 px-8 sm:px-14 text-sm text-white opacity-80 hover:opacity-100">
 						Get Started
 						<img
 							className="pl-2 sm:pl-3 pt-1"
@@ -113,7 +94,7 @@ export const Home = () => {
 			</div>
 			<section className="static">
 				{/* Basics of Crypto */}
-				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 ml-[10rem] top-[95%] z-40">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 md:ml-[10rem] md:top-[95%] top-[40%] z-40">
 					<div className="">
 						<DisclosureComponent
 							DisclosureImage="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png"
@@ -127,12 +108,12 @@ export const Home = () => {
 				</div>
 
 				{/* Road to your learner nft */}
-				<div className="absolute top-[125%] text-center hidden sm:block left-[30%]">
+				<div className="absolute top-[125%] text-center hidden sm:block left-[30%] md:block hidden">
 					<RoadToSVG />
 				</div>
 
 				{/* Learner NFT */}
-				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 left-[75%] top-[130%]">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 md:left-[75%] md:top-[130%] top-[45rem] left-[6rem]">
 					<div className="flex justify-end">
 						<ClaimComponent
 							checkIcon={<BiCheck />}
@@ -150,7 +131,7 @@ export const Home = () => {
 				</div> */}
 
 				{/* Introduction to Airdrops */}
-				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 mt-8 sm:mt-0 mt-[50px] md:left-[40%] md:mt-[33rem] ">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 mt-8 sm:mt-0 mt-[50px] md:left-[40%] md:mt-[33rem] mt-[60rem]">
 					<DisclosureComponent
 						DisclosureImage="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/85903745c34d42d684a2dc505768afa7.png"
 						title="Introduction to Airdrops"
@@ -161,12 +142,12 @@ export const Home = () => {
 					/>
 				</div>
 
-				<div className="absolute top-[190%] left-[23.5%]">
+				<div className="absolute top-[190%] left-[23.5%] md:block hidden">
 					<SVG3 />
 				</div>
 
 				{/* Earner NFT */}
-				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 md:ml-[10rem] md:mt-[55%]">
+				<div className="absolute mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 md:ml-[10rem] md:mt-[55%] mt-[75rem] ml-[7rem]">
 					<div className="flex justify-start mt-8 sm:mt-0">
 						<ClaimComponent
 							checkIcon={<BiCheck />}
@@ -178,13 +159,14 @@ export const Home = () => {
 					</div>
 				</div>
 
-				<div className="absolute mt-[60rem] -left-[6rem]">
+				<div className="absolute mt-[60rem] -left-[6rem] md:block hidden">
 					<SVG4 />
 				</div>
 			</section>
 
-			<div className=" w-full sm:w-[320px] sm:ml-[30rem] sm:mt-[5rem] mx-auto md:mt-[81rem] md:ml-[40rem]">
-				<div className="relative p-3 sm:p-[.75rem] rounded-lg sm:rounded-[12px] border border-solid border-[rgba(255,255,255,.05)] bg-[rgba(255,255,255,.05)] backdrop-filter backdrop-blur-md sm:backdrop-blur-[30px] flex flex-col gap-4">
+			{/* CountdownTimer */}
+			<div className=" w-full md:w-[320px]  md:ml-[30rem] md:mt-[5rem] mx-auto md:mt-[81rem] md:ml-[40rem] md:block flex-col mt-[110rem]">
+				<div className="relative p-3 sm:p-[.75rem] rounded-lg sm:rounded-[12px] border border-solid border-[rgba(255,255,255,.05)] bg-[rgba(255,255,255,.05)] backdrop-filter backdrop-blur-md sm:backdrop-blur-[30px] flex flex-col gap-4 md:mb-[0rem] mb-[0rem]">
 					<div>
 						<div className="flex items-center gap-2 text-sm sm:text-base">
 							<BsFillClockFill />
@@ -194,7 +176,7 @@ export const Home = () => {
 					<hr className="opacity-100 border-dashed border-[rgba(255,255,255,.1)] w-full" />
 					<CountdownTimer />
 				</div>
-				<div className="w-full sm:w-[320px] rounded-lg sm:rounded-[12px] border border-solid border-[rgba(255,255,255,.1)] mt-4 sm:mt-[16px] bg-[rgba(255,255,255,.05)] p-3 sm:p-[12px] relative">
+				<div className="w-full sm:w-[320px] rounded-lg sm:rounded-[12px] border border-solid border-[rgba(255,255,255,.1)] mt-4 sm:mt-[16px] bg-[rgba(255,255,255,.05)] p-3 sm:p-[12px] absolute md:mb-[0rem] mb-[3rem]">
 					<img
 						src="https://www.intract.io/assets/kol-reward-12e6ae06.gif"
 						alt="gif"
@@ -234,9 +216,9 @@ export const Home = () => {
 					<img
 						src="https://www.intract.io/assets/reward-info-path-571d6141.svg"
 						alt="gif2"
-						className="absolute top-1/2 right-full sm:-right-3/4 transform -translate-y-1/2 opacity-50"
+						className="absolute top-1/2 right-full sm:-right-3/4 transform -translate-y-1/2 opacity-50 "
 					/>
-					<div className="w-full sm:w-[312px] rounded-md sm:rounded-[6px] border border-solid border-[rgba(255,255,255,.2)] bg-[#131313] shadow-md absolute top-1/2 right-0 sm:-right-[120%] transform -translate-y-1/2 md:left-[125%] md:top-[1rem]">
+					<div className="w-full sm:w-[312px] rounded-md sm:rounded-[6px] border border-solid border-[rgba(255,255,255,.2)] bg-[#131313] shadow-md absolute top-1/2 right-0 sm:-right-[120%] transform -translate-y-1/2 md:left-[125%] md:-top-[22rem] mt-[22.5rem]">
 						<div className="text-sm font-light px-4 sm:px-[16px] py-3 sm:py-[12px] border-b border-solid border-[rgba(255,255,255,.05)] flex items-center gap-2">
 							Reward info
 							<BiInfoCircle />
@@ -261,11 +243,14 @@ export const Home = () => {
 				</div>
 			</div>
 
-			<section className="bg-white min-h-[1px] max-h-px my-[8rem] opacity-10"></section>
-			<div class="max-w-[1200px] mt-[28px] ml-[12rem]">
+			<section className="bg-white min-h-[1px] max-h-px md:mt-[45rem] mt-[60rem] mb-[3rem] opacity-10 md:my-[8rem]"></section>
+
+			<div class="max-w-[1200px] md:ml-[12rem] ml-[4rem]">
 				<div className="flex flex-col justify-center items-center font-[Outfit] not-italic font-normal tracking-[.117px] gap-[8px]">
-					<div className="text-[24px] leading-[30px]">Top Crypto Creators and Projects to Follow</div>
-					<div className="text-[16px] leading-[20px] text-center">
+					<div className="text-[24px] leading-[30px] text-center md:text-center md:w-full w-[80%] md:pb-0 pb-2">
+						Top Crypto Creators and Projects to Follow
+					</div>
+					<div className="text-[16px] leading-[20px] text-center md:w-full w-[80%]">
 						Answers to your crypto doubts, straight from the experts
 					</div>
 				</div>

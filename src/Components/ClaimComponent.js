@@ -22,10 +22,10 @@ const ClaimComponent = ({ checkIcon, imageSrc, lockIconSrc, title, description }
           />
         </div>
       </div>
-      <div className="[text-shadow:0px_0px_2px_rgba(0,0,0,.4)] text-[20px] font-normal leading-[24px] mb-[8px] mt-[16px] opacity-70">
+      <div className="[text-shadow:0px_0px_2px_rgba(0,0,0,.4)] text-[20px] font-normal leading-[24px] mb-[8px] mt-[16px] opacity-70 w-40 md:w-full">
         {title}
       </div> 
-      <div className="[text-shadow:0px_0px_2px_rgba(0,0,0,.4)] text-[16px] font-normal leading-[20px] mb-[16px] opacity-30">
+      <div className="[text-shadow:0px_0px_2px_rgba(0,0,0,.4)] text-[16px] font-normal leading-[20px] mb-[16px] opacity-30 w-40 md:w-full">
         {description}
       </div>
       <button className="rounded-[8px] border border-solid border-[rgba(255,255,255,.05)] bg-[rgba(255,255,255,.05)] flex w-[160px] px-0 py-[10px] justify-center items-center text-[16px] font-normal leading-[20px] !cursor-not-allowed">
