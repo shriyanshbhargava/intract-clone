@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import { Button } from '@headlessui/react';
 import { FaCaretDown } from 'react-icons/fa';
@@ -257,7 +256,7 @@ export const Home = () => {
 				<div className="mt-[40px] flex flex-wrap gap-[16px] mb-[20px]">
 					<div className="w-[283px] h-[420px] rounded-[16px] border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(255,255,255,.05)] flex flex-col justify-between relative overflow-hidden">
 						<div className="hidden">
-							<iframe
+							{/* <iframe
 								width="100%"
 								height="100%"
 								className="block align-middle"
@@ -267,7 +266,7 @@ export const Home = () => {
 							<span>
 								<BiX style={{ fontSize: '24px' }} />
 							</span>
-						</div>
+						</div> */}
 						<div className="block w-full h-full relative">
 							<div className="flex w-[40px] h-[40px] p-[8px] justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-[16px] right-[16px] cursor-pointer">
 								<img
@@ -297,13 +296,13 @@ export const Home = () => {
 
 					<div className="w-[283px] h-[420px] rounded-[16px] border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(255,255,255,.05)] flex flex-col justify-between relative overflow-hidden">
 						<div className="hidden">
-							<iframe
+							{/* <iframe
 								width="100%"
 								height="100%"
 								className="block align-middle"
 								src="https://www.youtube.com/embed/-kmxV_JO7eY?si=__7wqWnyPPilBw7F&autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=1"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							></iframe>
+							></iframe> */}
 							<span>
 								<BiX style={{ fontSize: '24px' }} />
 							</span>
@@ -337,12 +336,12 @@ export const Home = () => {
 
 					<div className="w-[283px] h-[420px] rounded-[16px] border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(255,255,255,.05)] flex flex-col justify-between relative overflow-hidden">
 						<div className="hidden">
-							<iframe
+							{/* <iframe
 								width="100%"
 								height="100%"
 								src="https://www.youtube.com/embed/9fyVLvY3P14?si=-02HNwqzZE3jXMz4&autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=1"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							></iframe>
+							></iframe> */}
 							<span>
 								<BiX style={{ fontSize: '24px' }} />
 							</span>
@@ -376,12 +375,12 @@ export const Home = () => {
 
 					<div className="w-[283px] h-[420px] rounded-[16px] border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(255,255,255,.05)] flex flex-col justify-between relative overflow-hidden">
 						<div className="hidden">
-							<iframe
+							{/* <iframe
 								width="100%"
 								height="100%"
 								src="https://www.youtube.com/embed/kYeFSwvt1sQ?si=wSQnw0sYAcpkSzz6&autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=1"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							></iframe>
+							></iframe> */}
 							<span>
 								<BiX style={{ fontSize: '24px' }} />
 							</span>
