@@ -8,6 +8,7 @@ import { BiSearch } from "react-icons/bi";
 import clsx from "clsx";
 import { useState, useRef } from "react";
 import "./Navbar.css";
+import { PiTelevisionSimpleBold } from "react-icons/pi";
 
 const navigation = [
   { name: "Compass", href: "#", current: false },
@@ -61,7 +62,7 @@ export default function NavbarSearch() {
             <div className="flex flex-shrink-0 items-center ">
               <img
                 alt="Your Company"
-                src="https://www.intract.io/logo/intract_text.svg"
+                src="https://intract-clone.vercel.app/static/media/intract_text.6576a0615b2ebcce04ada222e4e8e460.svg"
                 className="md:h-6 w-auto h-4 md:mr-0 mr-[10rem]"
               />
             </div>
@@ -121,10 +122,8 @@ export default function NavbarSearch() {
               type="button"
               className="w-[42.5px] h-[42.5px] backdrop-filter backdrop-blur-md bg-[rgba(60,_32,_140,_.2)] flex items-center justify-center border-[1px] border-[solid] border-[#fa8922] rounded-[100%] relative cursor-pointer"
             >
-              <img
-                src="https://www.intract.io/assets/broadcast_or-04af786c.svg"
-                alt=""
-              />
+             <PiTelevisionSimpleBold />
+
             </button>
 
             <span className="text-[#000] whitespace-nowrap bg-[#fff] rounded-[4px] px-[24px] py-[7px] text-[15px] ml-5 font-medium">

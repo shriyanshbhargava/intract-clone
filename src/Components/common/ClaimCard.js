@@ -1,3 +1,6 @@
+import { LockClosedIcon } from "@heroicons/react/24/outline";
+import { MdLockOutline } from "react-icons/md";
+
 const ClaimComponent = ({
   checkIcon,
   imageSrc,
@@ -19,7 +22,7 @@ const ClaimComponent = ({
           />
         </div>
         <div className="flex w-[48px] h-[48px] p-[12px] justify-center items-center rounded-full border border-solid border-[rgba(255,255,255,.2)] bg-[#131313] backdrop-filter backdrop-blur-[10px] absolute bottom-0 right-0 translate-x-[34%] translate-y-[35%]">
-          <img src={lockIconSrc} className="flex align-middle" alt="" />
+        <MdLockOutline className="flex align-middle" alt="" />
         </div>
       </div>
       <div className="[text-shadow:0px_0px_2px_rgba(0,0,0,.4)] text-[20px] font-normal leading-[24px] mb-[8px] mt-[16px] opacity-70 w-40 md:w-full">

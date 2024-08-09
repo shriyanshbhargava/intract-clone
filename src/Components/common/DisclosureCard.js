@@ -2,6 +2,7 @@ import { Disclosure, DisclosureButton } from "@headlessui/react";
 
 import { FaCaretDown } from "react-icons/fa";
 import { BiCheck } from "react-icons/bi";
+import { ImCoinDollar } from "react-icons/im";
 
 const DisclosureComponent = ({
   DisclosureImage,
@@ -44,12 +45,7 @@ const DisclosureComponent = ({
             />
             <div className="mt-[16px]">
               <div className="h-[32px] px-[12px] py-[8px] justify-center items-start rounded-[1000px] border-[.5px] border-[solid] border-[rgba(255,255,255,.05)] bg-[rgba(255,_255,_255,_.07)] text-[14px] font-normal leading-[16px] flex items-center gap-[4px] w-max">
-                <img
-                  src="https://www.intract.io/assets/xp-icon-aacd204a.svg"
-                  alt=""
-                  width="18"
-                  height="16"
-                />
+                <ImCoinDollar color="#e9ad03"/>
                 {xpCount} XPs
               </div>
             </div>

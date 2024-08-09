@@ -9,6 +9,8 @@ import Footer from "../Footer/Footer";
 import DictionaryComponent from "../common/DictionaryCard";
 import CountdownTimer from "../common/CountdownCard";
 import StickyButton from "../common/StickyButton";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 export const Home = () => {
   const tasks = [
@@ -50,14 +52,14 @@ export const Home = () => {
     <div className="Home">
       <div className="relative flex justify-center items-center">
         <img
-          src="https://www.intract.io/assets/intract-academy-background-5547a705.png"
+          src="https://intract-clone.vercel.app/static/media/intract-academy-background-5547a705.2fbcaa3436f74a96d27d.png"
           alt="Intract Academy Background"
           className="w-full h-auto"
         />
         <div className="absolute flex flex-col items-center text-center px-4 sm:px-0">
           <img
             alt="gif"
-            src="https://www.intract.io/assets/academy-animated-logo-57b2ae61.gif"
+            src="https://intract-clone.vercel.app/static/media/academy-animated-logo-57b2ae61.239cb230972862f504b8.gif"
             className="mix-blend-screen w-[150px] sm:w-[235px] transition-all duration-500 sm:ml-[11.5rem] md:ml-[1rem] md:mt-0 mt-[6rem]"
           />
           <p className="text-[12px] md:text-[20px] w-full font-normal leading-[24px] sm:leading-[28px] mt-4">
@@ -68,13 +70,9 @@ export const Home = () => {
             <span className="opacity-50">Join them and</span> learn how to earn
             crypto!
           </p>
-          <Button className="flex items-center rounded bg-[#6435e9] md:mt-4 mt-[30px] py-2 px-8 sm:px-14 text-sm text-white opacity-80 hover:opacity-100">
+          <Button className="flex items-center rounded bg-[#6435e9] md:mt-4 mt-[30px] py-2 px-8 sm:px-14 text-sm gap-2 text-white opacity-80 hover:opacity-100">
             Get Started
-            <img
-              className="pl-2 sm:pl-3 pt-1"
-              src="https://www.intract.io/assets/arrow-right-1c96f4ae.svg"
-              alt="Angle Top Icon"
-            />
+            <FaArrowRightLong />
           </Button>
         </div>
       </div>
@@ -164,19 +162,17 @@ export const Home = () => {
         </div>
         <div className="w-full sm:w-[320px] rounded-lg sm:rounded-[12px] border border-solid border-[rgba(255,255,255,.1)] mt-4 sm:mt-[16px] bg-[rgba(255,255,255,.05)] p-3 sm:p-[12px] absolute md:mb-[0rem] mb-[3rem]">
           <img
-            src="https://www.intract.io/assets/kol-reward-12e6ae06.gif"
+            src="https://intract-clone.vercel.app/static/media/kol.e9f41bef17dc2e844e6f.gif"
             alt="gif"
             className="w-full h-48 sm:w-[296px] sm:h-[296px] rounded-md sm:rounded-[6px] border border-solid border-[rgba(255,255,255,.1)] bg-[rgba(0,0,0,.2)] mb-4 sm:mb-[12px]"
           />
-          <div className="text-shadow text-sm sm:text-base font-normal absolute top-6 sm:top-[24px] right-6 sm:right-[24px] px-1 sm:px-[4px] py-0.5 sm:py-[2px] rounded-md">
-            Lucky Draw
-          </div>
+         
           <div className="flex items-center justify-between text-sm sm:text-base font-normal mb-4 sm:mb-[12px]">
             <div>Exclusive Community</div>
             <span className="flex items-center gap-1 sm:gap-[4px]">
               <img
                 className="block align-middle"
-                src="https://www.intract.io/assets/discord-50baa5cf.svg"
+                src="https://intract-clone.vercel.app/static/media/discord.3b0854cf4d40a82c346c940ab4dd8077.svg"
                 alt="discord-icon"
               />
               <p>Earndrop</p>
@@ -197,16 +193,9 @@ export const Home = () => {
           </div>
           <div className="flex w-full py-2 justify-center items-center gap-2 rounded-md sm:rounded-[8px] border border-solid border-[rgba(255,255,255,.07)] bg-[rgba(255,255,255,.07)] text-center text-sm sm:text-base font-normal mt-3 sm:mt-[12px]">
             <div>Claim Now</div>
-            <img
-              src="https://www.intract.io/assets/arrow-right-1c96f4ae.svg"
-              alt="Angle Top Icon"
-            />
+            <FaArrowRightLong />
           </div>
-          <img
-            src="https://www.intract.io/assets/reward-info-path-571d6141.svg"
-            alt="gif2"
-            className="absolute top-1/2 right-full sm:-right-3/4 transform -translate-y-1/2 opacity-50 "
-          />
+          
           <div className="w-full sm:w-[312px] rounded-md sm:rounded-[6px] border border-solid border-[rgba(255,255,255,.2)] bg-[#131313] shadow-md absolute top-1/2 right-0 sm:-right-[120%] transform -translate-y-1/2 md:left-[125%] md:-top-[22rem] mt-[22.5rem]">
             <div className="text-sm font-light px-4 sm:px-[16px] py-3 sm:py-[12px] border-b border-solid border-[rgba(255,255,255,.05)] flex items-center gap-2">
               Reward info
@@ -260,11 +249,7 @@ export const Home = () => {
             </div>
             <div className="block w-full h-full relative">
               <div className="flex w-[40px] h-[40px] p-[8px] justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-[16px] right-[16px] cursor-pointer">
-                <img
-                  className="block align-middle"
-                  src="https://www.intract.io/assets/reel-video-ee824737.svg"
-                  alt="reel-icon"
-                />
+                <FaInstagram />
               </div>
               <span className="inline-flex justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-2/4 transform -translate-x-1/2 -translate-y-1/2 text-[36px] h-[60px] w-[60px] left-2/4 cursor-pointer opacity-0 transition-transform duration-300 ease-in-out">
                 <BsFilePlayFill className="mt-1 ml-1" />
@@ -300,11 +285,7 @@ export const Home = () => {
             </div>
             <div className="block w-full h-full relative">
               <div className="flex w-[40px] h-[40px] p-[8px] justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-[16px] right-[16px] cursor-pointer">
-                <img
-                  className="block align-middle"
-                  src="https://www.intract.io/assets/reel-video-ee824737.svg"
-                  alt="reel-icon"
-                />
+              <FaInstagram />
               </div>
               <span className="inline-flex justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-2/4 transform -translate-x-1/2 -translate-y-1/2 text-[36px] h-[60px] w-[60px] left-2/4 cursor-pointer opacity-0 transition-transform duration-300 ease-in-out">
                 <BsFilePlayFill className="mt-1 ml-1" />
@@ -339,11 +320,7 @@ export const Home = () => {
             </div>
             <div className="block w-full h-full relative">
               <div className="flex w-[40px] h-[40px] p-[8px] justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-[16px] right-[16px] cursor-pointer">
-                <img
-                  className="block align-middle"
-                  src="https://www.intract.io/assets/reel-video-ee824737.svg"
-                  alt="reel-icon"
-                />
+              <FaInstagram />
               </div>
               <span className="inline-flex justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-2/4 transform -translate-x-1/2 -translate-y-1/2 text-[36px] h-[60px] w-[60px] left-2/4 cursor-pointer opacity-0 transition-transform duration-300 ease-in-out">
                 <BsFilePlayFill className="mt-1 ml-1" />
@@ -378,11 +355,7 @@ export const Home = () => {
             </div>
             <div className="block w-full h-full relative">
               <div className="flex w-[40px] h-[40px] p-[8px] justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-[16px] right-[16px] cursor-pointer">
-                <img
-                  className="block align-middle"
-                  src="https://www.intract.io/assets/reel-video-ee824737.svg"
-                  alt="reel-icon"
-                />
+              <FaInstagram />
               </div>
               <span className="inline-flex justify-center items-center rounded-full border-[1px] border-solid border-[rgba(255,255,255,.2)] bg-[rgba(0,0,0,.4)] backdrop-filter backdrop-blur-[20px] absolute top-2/4 transform -translate-x-1/2 -translate-y-1/2 text-[36px] h-[60px] w-[60px] left-2/4 cursor-pointer opacity-0 transition-transform duration-300 ease-in-out">
                 <BsFilePlayFill className="mt-1 ml-1" />
